@@ -1,0 +1,13 @@
+{
+    "name": "Side Track Pop-Ups",
+    "version": "1.0",
+    "description": "This is an extension to keep you from getting sidetracked",
+    "manifest_version": 3,
+    "author": "Jocelyn C",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js":["Content.js"]
+        }
+    ]
+}
